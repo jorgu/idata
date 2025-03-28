@@ -16,6 +16,27 @@
 		}
 		
 		.button {
+			background-color: #a2c4c9;
+			border: none;
+			color: white;
+			padding: 10px 32px;
+			text-align: center;
+			text-decoration: none;
+			display: inline-block;
+			font-size: 16px;
+			font-family: Arial, Tahoma, Verdana, sans-serif;
+			width: 400px;
+			margin: 4px 2px;
+			cursor: pointer;
+			/* box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); */
+		}
+		.button:hover {
+			box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);	
+		}
+
+		/*
+		.button {
+			
 			border: none;
 			color: white;
 			padding: 15px 32px;
@@ -26,11 +47,12 @@
 			margin: 4px 2px;
 			cursor: pointer;
 			width: 350px;
-			border-radius: 8px;
-		}
+			border-radius: 8px; 
+		} */
 
-		.button1 {background-color: #04AA6D;} /* Green */
-		.button2 {background-color: #008CBA;} /* Blue */
+		/* .button1 {background-color: #04AA6D;} /* Green */
+		/*.button2 {background-color: #008CBA;} /* Blue */
+		
 		div {
 			margin-top: 70px;
 			margin-left: 170px
@@ -48,43 +70,46 @@
     <div class="grid-container">
 		<div>
 			<h4>Dashboard</h4>
-			<a href="javascript:window.open('file://///id-infra02/Home/jgn/My Documents/IDATA/PO/Publish/Minreminders.htm')"><button class="button button1">Min Reminders</button></a></br>
-			<a href="javascript:window.open('file://///id-infra02/Home/jgn/My Documents/IDATA/_Publish/RoadMap.htm')"><button class="button button2">RoadMap</button></a></br>
-			<a href="javascript:window.open('file://///id-infra02/Home/jgn/My Documents/IDATA/_Publish/Time line - US - Alla beslutade US.htm')"><button class="button button1">Time line - Beslutade US</button></a></br>
-			<a href="javascript:window.open('file://///id-infra02/Home/jgn/My Documents/IDATA/_Publish/Time line - US - Krav som ej produktionssatta.htm')"><button class="button button2">Time line - Krav som ej ännu produktionssatta</button></a></br>
-			<a href="javascript:window.open('file://///id-infra02/Home/jgn/My Documents/IDATA/_Publish/New Sprint - Leveransgrad (US - Bug).htm')"><button class="button button1">New Sprint - Leveransgrad (US - Bug)</button></a></br>
-			<a href="javascript:window.open('file://///id-infra02/Home/jgn/My Documents/IDATA/_Publish/New Sprint - Leveransgrad kontorspost.htm')"><button class="button button2">New Sprint - Andel kontorspost i sprintar</button></a></br>
-			<a href="javascript:window.open('file://///id-infra02/Home/jgn/My Documents/IDATA/_Publish/New Sprint - Leverans.htm')"><button class="button button1">New Sprint - Senaste sprint</button></a></br>
-			<a href="javascript:window.open('file://///id-infra02/Home/jgn/My Documents/IDATA/_Publish/New Sprint - Prio från ws.htm')"><button class="button button2">New Sprint - Prio från WS</button></a></br>
-			<a href="javascript:window.open('file://///id-infra02/Home/jgn/My Documents/IDATA/_Publish/New Sprint - Prio-WS Kontorspost.htm')"><button class="button button1">New Sprint - Ursprungs Kontorspost</button></a></br>
-			<a href="javascript:window.open('https://idataab.atlassian.net/wiki/spaces/JOR/pages/58949678/Sprintplaneringen')"><button class="button button2">ToDo - Sprintplanering</button></a> 
+			<a href="javascript:window.open('file://///id-infra02/Home/jgn/My Documents/IDATA/PO/Publish/Minreminders.htm')"><button class="button button1">								Min Reminders</button></a></br>
+			<a href="javascript:window.open('file://///id-infra02/Home/jgn/My Documents/IDATA/_Publish/RoadMap.htm')"><button class="button button2">										RoadMap</button></a></br>
+			<a href="javascript:window.open('file://///id-infra02/Home/jgn/My Documents/IDATA/_Publish/Time line - US - Alla beslutade US.htm')"><button class="button button1">			Time line - Beslutade US</button></a></br>
+			<a href="javascript:window.open('file://///id-infra02/Home/jgn/My Documents/IDATA/_Publish/Time line - US - Krav som ej produktionssatta.htm')"><button class="button button2">	Time line - Krav som ej ännu produktionssatta</button></a></br>
+			<a href="javascript:window.open('file://///id-infra02/Home/jgn/My Documents/IDATA/_Publish/New Sprint - Leveransgrad (US - Bug).htm')"><button class="button button1">			New Sprint - Leveransgrad (US - Bug)</button></a></br>
+			<a href="javascript:window.open('file://///id-infra02/Home/jgn/My Documents/IDATA/_Publish/New Sprint - Leveransgrad kontorspost.htm')"><button class="button button2">			New Sprint - Andel kontorspost i sprintar</button></a></br>
+			<a href="javascript:window.open('file://///id-infra02/Home/jgn/My Documents/IDATA/_Publish/New Sprint - Leverans.htm')"><button class="button button1">							New Sprint - Senaste sprint</button></a></br>
+			<a href="javascript:window.open('file://///id-infra02/Home/jgn/My Documents/IDATA/_Publish/New Sprint - Prio från ws.htm')"><button class="button button2">						New Sprint - Prio från WS</button></a></br>
+			<a href="javascript:window.open('file://///id-infra02/Home/jgn/My Documents/IDATA/_Publish/New Sprint - Prio-WS Kontorspost.htm')"><button class="button button1">				New Sprint - Ursprungs Kontorspost</button></a></br>
+			<a href="javascript:window.open('https://idataab.atlassian.net/wiki/spaces/JOR/pages/58949678/Sprintplaneringen')"><button class="button button2">								ToDo - Sprintplanering</button></a> 
+			<a href="javascript:window.open('https://idataab.atlassian.net/wiki/spaces/JOR/pages/310476810/Sprintnedbrytningar')"><button class="button button1">							Backloggnedbrytningar</button></a>
 		</div>
 <!---- -->
 		<div>
 			<h4>Flöden</h4>
-			<a href="javascript:window.open('file://id-infra02/Home/jgn/My%20Documents/IDATA/_Publish/Publikt-API.htm')"><button class="button button1">Publikt-API</button></a></br>			
-			<a href="javascript:window.open('https://idataab.atlassian.net/wiki/spaces/JOR/pages/262897685/Olika+referenser')"><button class="button button2">Olika referenser</button></a></br>			
-			<a href="javascript:window.open('https://idataab.atlassian.net/wiki/spaces/JOR/pages/17795597/eInlaga-eBilaga-Inlagor')"><button class="button button1">eInlaga-eBilaga-Inlagor</button></a></br>			
-			<a href="javascript:window.open('https://idataab.atlassian.net/wiki/spaces/JOR/pages/17795708/Ut+kadlagring')"><button class="button button2">Utökad lagring - Arkiv</button></a></br>			
-			<a href="javascript:window.open('https://idataab.atlassian.net/wiki/spaces/JOR/pages/220823555/Digitalabrev+vs+Sekretessutskick+vs+Eng+ngsutskick')"><button class="button button1">Digitalabrev-Sekretessutskick-Engångsutskick</button></a></br>			
-			<a href="javascript:window.open('file://///id-infra02/Home/jgn/My Documents/IDATA/_Publish/Kort guide för att arbeta med Ställ en fråga.htm')"><button class="button button2">Kort guide - Ställ en fråga (Jira)</button></a></br>			
-			<a href="javascript:window.open('https://idataab.atlassian.net/wiki/spaces/JOR/pages/308609041/Quadient')"><button class="button button1">Quadient</button></a></br>			
+			<a href="javascript:window.open('file://id-infra02/Home/jgn/My%20Documents/IDATA/_Publish/Publikt-API.htm')"><button class="button button1">											Publikt-API</button></a></br>			
+			<a href="javascript:window.open('https://idataab.atlassian.net/wiki/spaces/JOR/pages/262897685/Olika+referenser')"><button class="button button2">										Olika referenser</button></a></br>			
+			<a href="javascript:window.open('https://idataab.atlassian.net/wiki/spaces/JOR/pages/17795597/eInlaga-eBilaga-Inlagor')"><button class="button button1">								eInlaga-eBilaga-Inlagor</button></a></br>			
+			<a href="javascript:window.open('https://idataab.atlassian.net/wiki/spaces/JOR/pages/17795708/Ut+kadlagring')"><button class="button button2">											Utökad lagring - Arkiv</button></a></br>			
+			<a href="javascript:window.open('https://idataab.atlassian.net/wiki/spaces/JOR/pages/220823555/Digitalabrev+vs+Sekretessutskick+vs+Eng+ngsutskick')"><button class="button button1">	Digitalabrev-Sekretessutskick-Engångsutskick</button></a></br>			
+			<a href="javascript:window.open('file://///id-infra02/Home/jgn/My Documents/IDATA/_Publish/Kort guide för att arbeta med Ställ en fråga.htm')"><button class="button button2">			Kort guide - Ställ en fråga (Jira)</button></a></br>			
+			<a href="javascript:window.open('https://idataab.atlassian.net/wiki/spaces/JOR/pages/308609041/Quadient')"><button class="button button1">												Quadient</button></a></br>			
 			<a href="javascript:window.open('-')"><button class="button button2">-</button></a></br>			
 			<a href="javascript:window.open('-')"><button class="button button1">-</button></a>
 			<a href="javascript:window.open('-')"><button class="button button2">-</button></a></br>			
+			<a href="javascript:window.open('-')"><button class="button button1">-</button></a>			
 		</div>
 		<div>
 			<h4>Public</h4>
-			<a href="javascript:window.open('https://idataab.atlassian.net/wiki/spaces/PROD/pages/89260119/Releasedemo')"><button class="button button1">Release demo(n)</button></a>
-			<a href="javascript:window.open('https://idataab.atlassian.net/wiki/spaces/PROD/database/246480900?atl_f=PAGETREE&savedViewId=c391a4f5-2837-4b69-b808-b8a8e134cb64')"><button class="button button2">Kontorspost [DB]</button></a></br>			
-			<a href="javascript:window.open('https://idataab.atlassian.net/wiki/spaces/PROD/pages/279315249/FINQR')"><button class="button button1">FINQR</button></a></br>			
-			<a href="javascript:window.open('https://idataab.atlassian.net/wiki/spaces/PROD/pages/251396098/Konceptuell+beskrivning+av+TRF')"><button class="button button2">Konceptuell beskrivning av TRF</button></a></br>			
-			<a href="javascript:window.open('https://idataab.atlassian.net/wiki/spaces/PROD/pages/255133382/REK+Digitala+brev+-+Kivra')"><button class="button button1">Kivra - REK digitalabrev</button></a>
-			<a href="javascript:window.open('https://idataab.atlassian.net/issues/?filter=10736')"><button class="button button2">Kontorspost - ej ursprungs scope</button></a></br>			
-			<a href="javascript:window.open('https://idataab.atlassian.net/wiki/spaces/PROD/pages/158728193/Deadlines')"><button class="button button1">Deadlines</button></a></br>			
+			<a href="javascript:window.open('https://idataab.atlassian.net/wiki/spaces/PROD/pages/89260119/Releasedemo')"><button class="button button1">															Release demo(n)</button></a>
+			<a href="javascript:window.open('https://idataab.atlassian.net/wiki/spaces/PROD/database/246480900?atl_f=PAGETREE&savedViewId=c391a4f5-2837-4b69-b808-b8a8e134cb64')"><button class="button button2">	Kontorspost [DB]</button></a></br>			
+			<a href="javascript:window.open('https://idataab.atlassian.net/wiki/spaces/PROD/pages/279315249/FINQR')"><button class="button button1">																FINQR</button></a></br>			
+			<a href="javascript:window.open('https://idataab.atlassian.net/wiki/spaces/PROD/pages/251396098/Konceptuell+beskrivning+av+TRF')"><button class="button button2">										Konceptuell beskrivning av TRF</button></a></br>			
+			<a href="javascript:window.open('https://idataab.atlassian.net/wiki/spaces/PROD/pages/255133382/REK+Digitala+brev+-+Kivra')"><button class="button button1">											Kivra - REK digitalabrev</button></a>
+			<a href="javascript:window.open('https://idataab.atlassian.net/issues/?filter=10736')"><button class="button button2">																					Kontorspost - ej ursprungs scope</button></a></br>			
+			<a href="javascript:window.open('https://idataab.atlassian.net/wiki/spaces/PROD/pages/158728193/Deadlines')"><button class="button button1">															Deadlines</button></a></br>			
 			<a href="javascript:window.open('-')"><button class="button button2">-</button></a></br>			
 			<a href="javascript:window.open('-')"><button class="button button1">-</button></a>
-			<a href="javascript:window.open('-')"><button class="button button2">-</button></a></br>
+			<a href="javascript:window.open('-')"><button class="button button2">-</button></a></br>			
+			<a href="javascript:window.open('-')"><button class="button button1">-</button></a>
 		</div>
 	</div>
   </body>
