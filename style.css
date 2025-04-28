@@ -41,3 +41,23 @@ h1, h2, h3, h4, h5 {
 	color:lightgrey;   /*rgb(199, 0, 0); */
 
 }
+
+.buttonTemp {
+	background-color: #f5870a;
+	border: none;
+	color: white;
+	padding: 10px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 14px;
+	font-family: Arial, Tahoma, Verdana, sans-serif;
+	width: 300px;
+	margin: 4px 2px;
+	cursor: pointer;border-radius: 25px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+.buttonTemp:hover {
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);	
+}
