@@ -7,7 +7,7 @@ const linkData = [
             {   text: "Leveransgrad vs resursdagar", url: "file://///id-infra02/Home/jgn/My Documents/IDATA/_Publish/New Sprint - Leveransgrad vs resursdagar.htm", class: "button1" },
             { text: "Leveransgrad (US - Bug) senaste sprintar", url: "file://///id-infra02/Home/jgn/My Documents/IDATA/_Publish/New Sprint - Leveransgrad (US - Bug) 10 resp 5 sprintar.htm", class: "button1" },
             { text: "Leveransgrad (US) - antal vs h", url: "file://///id-infra02/Home/jgn/My Documents/IDATA/_Publish/New Sprint Leveransgrad antal vs h.htm", class: "button1" },
-            { text: "Senaste sprint", url: "file://///id-infra02/Home/jgn/My Documents/IDATA/_Publish/New Sprint - Leverans.htm", class: "button1" },
+            { text: "Senaste sprint", url: "file://///id-infra02/Home/jgn/My Documents/IDATA/_Publish/New Sprint - Leverans.htm", class: "button1" }
         ],
         subgroups: [
             {
@@ -75,7 +75,7 @@ const linkData = [
                     { text: "REK - Kivra (Pages.Jörgen)",                               url: "https://idataab.atlassian.net/wiki/spaces/JOR/pages/255230217/Hantera+REK+-+Kivra", class: "button1" },
                     { text: "Dokumentstatus (API) & EbeställningMatchC (Pages.Jörgen)", url: "https://idataab.atlassian.net/wiki/spaces/JOR/pages/354189355/Publik+Status+f+r+dokument+via+API", class: "button1" },
                     { text: "Quadient",                                                 url: "https://idataab.atlassian.net/wiki/spaces/JOR/pages/308609041/Quadient", class: "button1" },
-                    { text: "OmniGo Timeplan",                                          url: "file://///id-infra02/Home/jgn/My Documents/IDATA/_Publish/Timeline OmniGo migrated (Tidsplan).htm", class: "button1" },
+                    { text: "OmniGo Timeplan",                                          url: "file://///id-infra02/Home/jgn/My Documents/IDATA/_Publish/Timeline OmniGo migrated (Tidsplan).htm", class: "button1" }
                 ]          
             }
         ]
@@ -106,14 +106,14 @@ const linkData = [
                     { text: "Statuskedja för API-dokument",         url: "https://idataab.atlassian.net/wiki/spaces/PROD/pages/354549912/Statuskedja+f+r+dokument+via+publika+API", class: "button2" },
                     { text: "IDATA Public API (doc)",               url: "https://developer.idata.se/", class: "button2" }
                 ]
-            },
+            }
         ]
     }
 ];
 
 
 
-function renderLinks(isLocal) {
+function renderLinks() {
     const container = document.getElementById("linkContainer");
     container.innerHTML = ""; // rensa
 
@@ -130,7 +130,7 @@ function renderLinks(isLocal) {
         col.appendChild(header);
 
         // Länkar utan subgrupper
-        renderLinkList(col, section.links, isLocal);
+        renderLinkList(col, section.links);
 
         // Subgrupper (om finns)
         if (section.subgroups) {
@@ -141,7 +141,7 @@ function renderLinks(isLocal) {
                     subh.textContent = sub.title;
                     col.appendChild(subh);
                 }
-                renderLinkList(col, sub.links, isLocal);
+                renderLinkList(col, sub.links);
             });
         }
 
@@ -176,10 +176,10 @@ function createToggleButtons(sections) {
 
 
 
-function renderLinkList(parent, links, isLocal) {
+function renderLinkList(parent, links) {
     links.forEach(link => {
         const a = document.createElement("a");
-        isLocal ? a.href = "javascript:window.open('" + link.url + "')" : a.href = link.url;
+        link.substring(0, 5) == 'https' ?  a.href = link.url : a.href = "javascript:window.open('" + link.url + "')" ;
 
         const btn = document.createElement("button");
         btn.className = "button " + link.class;
@@ -190,7 +190,7 @@ function renderLinkList(parent, links, isLocal) {
     });
 }
 
-
+/*
 function getLink() {
     if (window.location.protocol === 'file:') {
         return 1==1; //"javascript:window.open('file://///";
@@ -198,5 +198,5 @@ function getLink() {
         return 1==0; //"file://///";
     }
 }
-
-renderLinks(getLink());
+*/
+renderLinks();
