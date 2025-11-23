@@ -113,7 +113,7 @@ const linkData = [
 
 
 
-function renderLinks() {
+function renderLinks(isLocal) {
     const container = document.getElementById("linkContainer");
     container.innerHTML = ""; // rensa
 
@@ -130,7 +130,7 @@ function renderLinks() {
         col.appendChild(header);
 
         // Länkar utan subgrupper
-        renderLinkList(col, section.links);
+        renderLinkList(col, section.links, isLocal);
 
         // Subgrupper (om finns)
         if (section.subgroups) {
@@ -141,7 +141,7 @@ function renderLinks() {
                     subh.textContent = sub.title;
                     col.appendChild(subh);
                 }
-                renderLinkList(col, sub.links);
+                renderLinkList(col, sub.links, isLocal);
             });
         }
 
@@ -176,11 +176,16 @@ function createToggleButtons(sections) {
 
 
 
-function renderLinkList(parent, links) {
+function renderLinkList(parent, links, isLocal) {
     links.forEach(link => {
         const a = document.createElement("a");
-        link.url.substring(0, 5) == 'https' ?  a.href = "javascript:window.open('" + link.url + "')" : a.href = link.url;
 
+        if (isLocal) {
+            a.href = "javascript:window.open('" + link.url + "')"
+        } else {
+            link.url.substring(0, 5) == 'https' ?  a.href = "javascript:window.open('" + link.url + "')" : a.href = link.url;
+        }
+        
         const btn = document.createElement("button");
         btn.className = "button " + link.class;
         btn.textContent = link.text;
@@ -190,7 +195,7 @@ function renderLinkList(parent, links) {
     });
 }
 
-/*
+
 function getLink() {
     if (window.location.protocol === 'file:') {
         return 1==1; //"javascript:window.open('file://///";
@@ -198,5 +203,5 @@ function getLink() {
         return 1==0; //"file://///";
     }
 }
-*/
+
 renderLinks();
