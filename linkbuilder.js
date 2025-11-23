@@ -137,7 +137,6 @@ function renderLinks(isLocal) {
             section.subgroups.forEach(sub => {
                 if (sub.title) {
                     const subh = document.createElement("h4");
-                    //subh.className = "subheader";
                     subh.textContent = sub.title;
                     col.appendChild(subh);
                 }
