@@ -179,7 +179,7 @@ function createToggleButtons(sections) {
 function renderLinkList(parent, links) {
     links.forEach(link => {
         const a = document.createElement("a");
-        link.url.substring(0, 5) == 'https' ?  a.href = link.url : a.href = "javascript:window.open('" + link.url + "')" ;
+        link.url.substring(0, 5) == 'https' ?  a.href = "javascript:window.open('" + link.url + "')" : a.href = link.url;
 
         const btn = document.createElement("button");
         btn.className = "button " + link.class;
