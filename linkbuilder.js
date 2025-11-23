@@ -4,14 +4,14 @@ const linkData = [
     {
         title: "New Sprint",
         links: [
-            {   text: "Leveransgrad vs resursdagar", url: "file://///id-infra02/Home/jgn/My Documents/IDATA/_Publish/New Sprint - Leveransgrad vs resursdagar.htm", class: "button1" },
+            { text: "Leveransgrad vs resursdagar", url: "file://///id-infra02/Home/jgn/My Documents/IDATA/_Publish/New Sprint - Leveransgrad vs resursdagar.htm", class: "button1" },
             { text: "Leveransgrad (US - Bug) senaste sprintar", url: "file://///id-infra02/Home/jgn/My Documents/IDATA/_Publish/New Sprint - Leveransgrad (US - Bug) 10 resp 5 sprintar.htm", class: "button1" },
             { text: "Leveransgrad (US) - antal vs h", url: "file://///id-infra02/Home/jgn/My Documents/IDATA/_Publish/New Sprint Leveransgrad antal vs h.htm", class: "button1" },
             { text: "Senaste sprint", url: "file://///id-infra02/Home/jgn/My Documents/IDATA/_Publish/New Sprint - Leverans.htm", class: "button1" }
         ],
         subgroups: [
             {
-                title: "",
+                title: " ",
                 links: [
                     { text: "RoadMap",                      url: "file://///id-infra02/Home/jgn/My Documents/IDATA/_Publish/RoadMap.htm", class: "button2" },
                     { text: "RoadMap - Due Dates",          url: "file://id-infra02/Home/jgn/My%20Documents/IDATA/_Publish/RoadMap%20Due%20Dates.htm", class: "button2" },
@@ -19,7 +19,7 @@ const linkData = [
                 ]
             },
             {
-                title: "",
+                title: " ",
                 links: [
                     { text: "RoadMapGenomsnittstid för US i Product backlog", url: "file://///id-infra02/Home/jgn/My Documents/IDATA/_Publish/US genomsnittstid i status Product Backlog.htm')", class: "buttonTemp" }
                 ]
@@ -46,7 +46,7 @@ const linkData = [
                 ]
             },
             {
-                title: "",
+                title: " ",
                 links: [
                     { text: "Affärsutveckling",                     url: "https://idataab.atlassian.net/wiki/spaces/JOR/pages/323551244/Logg", class: "button1" },
                     { text: "Avstämning MKM",                       url: "file://///id-infra02/Home/jgn/My Documents/IDATA/PO/Underlag MKM/Avstämning MKM.htm", class: "button1" }
@@ -69,7 +69,7 @@ const linkData = [
         
         subgroups: [
             {               
-                title: "",
+                title: " ",
                 links: [
                     { text: "Kort guide - Ställ en fråga (Jira)",                       url: "file://///id-infra02/Home/jgn/My Documents/IDATA/_Publish/Kort guide för att arbeta med Ställ en fråga.htm", class: "button2" },
                     { text: "REK - Kivra (Pages.Jörgen)",                               url: "https://idataab.atlassian.net/wiki/spaces/JOR/pages/255230217/Hantera+REK+-+Kivra", class: "button1" },
@@ -90,7 +90,7 @@ const linkData = [
         
         subgroups: [
             {               
-                title: "",
+                title: " ",
                 links: [
                     { text: "FINQR",                        url: "https://idataab.atlassian.net/wiki/spaces/PROD/pages/279315249/FINQR", class: "button1" },
                     { text: "Quadient [DB]",                url: "https://idataab.atlassian.net/wiki/spaces/PROD/database/381124616?atl_f=PAGETREE&savedViewId=594c0e42-4be7-47e2-b4fa-6099b1fb39d6", class: "button1" },
@@ -99,7 +99,7 @@ const linkData = [
                 ]
             },
             {               
-                title: "",
+                title: " ",
                 links: [
                     { text: "Konceptuell beskrivning av TRF",       url: "https://idataab.atlassian.net/wiki/spaces/PROD/pages/251396098/Konceptuell+beskrivning+av+TRF", class: "button2" },
                     { text: "Kontorspost - ej ursprungs scope",     url: "https://idataab.atlassian.net/issues/?filter=10736", class: "button2" },
