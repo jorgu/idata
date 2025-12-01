@@ -14,7 +14,7 @@ const linkData = [
                 title: " ",
                 links: [
                     { text: "RoadMap",                      url: "file://///id-infra02/Home/jgn/My Documents/IDATA/_Publish/RoadMap.htm", class: "button2" },
-                    { text: "RoadMap - Due Dates",          url: "file://id-infra02/Home/jgn/My%20Documents/IDATA/_Publish/RoadMap%20Due%20Dates.htm", class: "button2" },
+                    { text: "RoadMap - Due Dates",          url: "file://///id-infra02/Home/jgn/My%20Documents/IDATA/_Publish/RoadMap%20Due%20Dates.htm", class: "button2" },
                     { text: "Resursberäkning (RoadMap)",    url: "file://///id-infra02/Home/jgn/My Documents/IDATA/_Publish/Resursredovisning-(RoadMap).htm", class: "button1" }
                 ]
             },
@@ -203,4 +203,4 @@ function getLink() {
     }
 }
 
-renderLinks();
+renderLinks(getLink());
