@@ -182,7 +182,7 @@ function renderLinkList(parent, links, isLocal) {
         if (isLocal) {
             a.href = "javascript:window.open('" + link.url + "')"
         } else {
-            link.url.substring(0, 5) == 'https' ?  a.href = "javascript:window.open('" + link.url + "')" : a.href = link.url;
+            link.url.substring(0, 5) == 'https' ?  a.href = "javascript:window.open('" + link.url + "')" : a.href = 'http://localhost:8765/' + link.url;//a.href = link.url;
         }
         
         const btn = document.createElement("button");
