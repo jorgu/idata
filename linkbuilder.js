@@ -182,9 +182,9 @@ function renderLinkList(parent, links, isLocal) {
 
         const url = link.url.replaceAll(/%20/g, ' ')
         if (isLocal) {
-            a.href = url;//"javascript:window.open('" + url + "')"
+            a.href = url;
         } else {
-            a.href = url.replace('file://///id-infra02/Home/jgn/My Documents/IDATA/_Publish/', 'http://localhost:8765/'); //url.substring(0, 5) == 'https' ?  a.href = "javascript:window.open('" + url + "')" : a.href = url.replace('file://///id-infra02/Home/jgn/My Documents/IDATA/_Publish/', 'http://localhost:8765/') ;//a.href = link.url;
+            a.href = url.replace('file://///id-infra02/Home/jgn/My Documents/IDATA/_Publish/', 'http://localhost:8765/'); 
         }
         
         const btn = document.createElement("button");
@@ -199,9 +199,9 @@ function renderLinkList(parent, links, isLocal) {
 
 function getLink() {
     if (window.location.protocol === 'file:') {
-        return 1==1; //"javascript:window.open('file://///";
+        return 1==1; 
     } else {
-        return 1==0; //"file://///";
+        return 1==0;
     }
 }
 
