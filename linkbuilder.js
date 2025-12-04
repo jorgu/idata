@@ -184,7 +184,7 @@ function renderLinkList(parent, links, isLocal) {
         if (isLocal) {
             a.href = url;//"javascript:window.open('" + url + "')"
         } else {
-            url.substring(0, 5) == 'https' ?  a.href = "javascript:window.open('" + url + "')" : a.href = url.replace('file://///id-infra02/Home/jgn/My Documents/IDATA/_Publish/', 'http://localhost:8765/') ;//a.href = link.url;
+            a.href = url.replace('file://///id-infra02/Home/jgn/My Documents/IDATA/_Publish/', 'http://localhost:8765/'); //url.substring(0, 5) == 'https' ?  a.href = "javascript:window.open('" + url + "')" : a.href = url.replace('file://///id-infra02/Home/jgn/My Documents/IDATA/_Publish/', 'http://localhost:8765/') ;//a.href = link.url;
         }
         
         const btn = document.createElement("button");
