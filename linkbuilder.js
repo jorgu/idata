@@ -177,7 +177,9 @@ function createToggleButtons(sections) {
 
 function renderLinkList(parent, links, isLocal) {
     links.forEach(link => {
-        const a = document.createElement("a");
+        let a = document.createElement("a");
+        a.setAttribute('target', '_blank')
+
         const url = link.url.replaceAll(/%20/g, ' ')
         if (isLocal) {
             a.href = "javascript:window.open('" + url + "')"
