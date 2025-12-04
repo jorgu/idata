@@ -14,7 +14,7 @@ const linkData = [
                 title: " ",
                 links: [
                     { text: "RoadMap",                      url: "file://///id-infra02/Home/jgn/My Documents/IDATA/_Publish/RoadMap.htm", class: "button2" },
-                    { text: "RoadMap - Due Dates",          url: "file://///id-infra02/Home/jgn/My%20Documents/IDATA/_Publish/RoadMap%20Due%20Dates.htm", class: "button2" },
+                    { text: "RoadMap - Due Dates",          url: "file://///id-infra02/Home/jgn/My Documents/IDATA/_Publish/RoadMap Due Dates.htm", class: "button2" },
                     { text: "Resursberäkning (RoadMap)",    url: "file://///id-infra02/Home/jgn/My Documents/IDATA/_Publish/Resursredovisning-(RoadMap).htm", class: "button1" }
                 ]
             },
@@ -178,11 +178,11 @@ function createToggleButtons(sections) {
 function renderLinkList(parent, links, isLocal) {
     links.forEach(link => {
         const a = document.createElement("a");
-
+        const url = link.url.replaceAll(/%20/g, ' ')
         if (isLocal) {
-            a.href = "javascript:window.open('" + link.url + "')"
+            a.href = "javascript:window.open('" + url + "')"
         } else {
-            link.url.substring(0, 5) == 'https' ?  a.href = "javascript:window.open('" + link.url + "')" : a.href = 'http://localhost:8765/' +  link.url.replace('"file://///id-infra02/Home/jgn/My Documents/IDATA/_Publish/', '') ;//a.href = link.url;
+            url.substring(0, 5) == 'https' ?  a.href = "javascript:window.open('" + url + "')" : a.href = url.replace('file://///id-infra02/Home/jgn/My Documents/IDATA/_Publish/', 'http://localhost:8765/') ;//a.href = link.url;
         }
         
         const btn = document.createElement("button");
