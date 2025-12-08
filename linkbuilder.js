@@ -39,7 +39,7 @@ const linkData = [
                 links: [
                     { text: "ToDo - Sprintplanering",               url: "https://idataab.atlassian.net/wiki/spaces/JOR/pages/58949678/Sprintplaneringen", class: "button2" },
                     { text: "Backloggnedbrytningar",                url: "https://idataab.atlassian.net/wiki/spaces/JOR/pages/310476810/Sprintnedbrytningar", class: "button1" },
-                    { text: "Antal sprintar beslutade US ingått",   url: "file://id-infra02/Home/jgn/My%20Documents/IDATA/_Publish/Time%20line%20-%20US%20-%20Antal%20sprintar%20ing%C3%A5tt.htm", class: "button1" },
+                    { text: "Antal sprintar beslutade US ingått",   url: "file://///id-infra02/Home/jgn/My%20Documents/IDATA/_Publish/Time%20line%20-%20US%20-%20Antal%20sprintar%20ing%C3%A5tt.htm", class: "button1" },
                     { text: "Prio från WS",                         url: "file://///id-infra02/Home/jgn/My Documents/IDATA/_Publish/New Sprint - Prio från ws.htm", class: "button2" },
                     { text: "Min Reminders",                        url: "file://///id-infra02/Home/jgn/My Documents/IDATA/PO/Publish/Minreminders.htm", class: "button1" },
                     { text: "Deadlines",                            url: "https://idataab.atlassian.net/wiki/spaces/PROD/pages/158728193/Deadlines", class: "button1" }
@@ -58,8 +58,8 @@ const linkData = [
         title: "Flöden",
         links: [
             { text: "IDATA - Tjänster",         url: "https://idataab.atlassian.net/wiki/spaces/JOR/pages/339771393/IDATA+-+Tj+nster", class: "button1" },
-            { text: "Publikt-API (koncept)",    url: "file://id-infra02/Home/jgn/My%20Documents/IDATA/_Publish/Publikt-API.htm", class: "button1" },
-            { text: "Rollhantering",            url: "file://id-infra02/Home/jgn/My%20Documents/IDATA/_Publish/rollhantering.htm", class: "button1" },
+            { text: "Publikt-API (koncept)",    url: "file://///id-infra02/Home/jgn/My%20Documents/IDATA/_Publish/Publikt-API.htm", class: "button1" },
+            { text: "Rollhantering",            url: "file://///id-infra02/Home/jgn/My%20Documents/IDATA/_Publish/rollhantering.htm", class: "button1" },
             { text: "Olika referenstyper",      url: "https://idataab.atlassian.net/wiki/spaces/JOR/pages/262897685/Olika+referenser", class: "button2" },
             { text: "eInlaga-eBilaga-Inlagor",  url: "https://idataab.atlassian.net/wiki/spaces/JOR/pages/17795597/eInlaga-eBilaga-Inlagor", class: "button1" },
             { text: "Utökad lagring - Arkiv",   url: "https://idataab.atlassian.net/wiki/spaces/JOR/pages/17795708/Ut+kadlagring", class: "button2" },
