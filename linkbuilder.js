@@ -41,7 +41,7 @@ const linkData = [
                     { text: "Backloggnedbrytningar",                url: "https://idataab.atlassian.net/wiki/spaces/JOR/pages/310476810/Sprintnedbrytningar", class: "button1" },
                     { text: "Antal sprintar beslutade US ingått",   url: "file://///id-infra02/Home/jgn/My%20Documents/IDATA/_Publish/Time%20line%20-%20US%20-%20Antal%20sprintar%20ing%C3%A5tt.htm", class: "button1" },
                     { text: "Prio från WS",                         url: "file://///id-infra02/Home/jgn/My Documents/IDATA/_Publish/New Sprint - Prio från ws.htm", class: "button2" },
-                    { text: "Min Reminders",                        url: "file://///id-infra02/Home/jgn/My Documents/IDATA/PO/Publish/Minreminders.htm", class: "button1" },
+                    { text: "Min Reminders",                        url: "file://///id-infra02/Home/jgn/My Documents/IDATA/_Publish/Minreminders.htm", class: "button1" },
                     { text: "Deadlines",                            url: "https://idataab.atlassian.net/wiki/spaces/PROD/pages/158728193/Deadlines", class: "button1" }
                 ]
             },
@@ -49,7 +49,7 @@ const linkData = [
                 title: " ",
                 links: [
                     { text: "Affärsutveckling",                     url: "https://idataab.atlassian.net/wiki/spaces/JOR/pages/323551244/Logg", class: "button1" },
-                    { text: "Avstämning MKM",                       url: "file://///id-infra02/Home/jgn/My Documents/IDATA/PO/Underlag MKM/Avstämning MKM.htm", class: "button1" }
+                    { text: "Avstämning MKM",                       url: "file://///id-infra02/Home/jgn/My Documents/IDATA/_Publish/Underlag MKM/Avstämning MKM.htm", class: "button1" }
                 ]
             }
         ]
