@@ -49,7 +49,7 @@ const linkData = [
                 title: " ",
                 links: [
                     { text: "Affärsutveckling",                     url: "https://idataab.atlassian.net/wiki/spaces/JOR/pages/323551244/Logg", class: "button1" },
-                    { text: "Avstämning MKM",                       url: "file://///id-infra02/Home/jgn/My Documents/IDATA/_Publish/Underlag MKM/Avstämning MKM.htm", class: "button1" }
+                    { text: "Avstämning MKM",                       url: "file://///id-infra02/Home/jgn/My Documents/IDATA/_Publish/Avstämning MKM.htm", class: "button1" }
                 ]
             }
         ]
