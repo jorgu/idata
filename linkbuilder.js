@@ -83,9 +83,10 @@ const linkData = [
     {
         title: "Public",
         links: [
-            { text: "Sprintdemo(n)",    url: "https://idataab.atlassian.net/wiki/spaces/SCRUM/pages/17237019/Sprintar", class: "button1" },
-            { text: "Release demo(n)",  url: "https://idataab.atlassian.net/wiki/spaces/PROD/pages/89260119/Releasedemo", class: "button1" },
-            { text: "Kontorspost [DB]", url: "https://idataab.atlassian.net/wiki/spaces/PROD/database/444694531?atl_f=PAGETREE", class: "button2" }
+            { text: "Sprintdemo(n)",        url: "https://idataab.atlassian.net/wiki/spaces/SCRUM/pages/17237019/Sprintar", class: "button1" },
+            { text: "Release demo(n)",      url: "https://idataab.atlassian.net/wiki/spaces/PROD/pages/89260119/Releasedemo", class: "button1" },
+            { text: "Kontorspost [DB]",     url: "https://idataab.atlassian.net/wiki/spaces/PROD/database/444694531?atl_f=PAGETREE", class: "button2" },
+            { text: "Sprintinnehåll (PLG)", url: "file://///ID-INFRA02.IDATA.SE/Internt/IDATA Utskriftsservice AB/Kundservice/Projektstarter/Sprintinnehåll (JGN)/Sprintinnehåll (PLG).htm", class: "button2" }
         ],
         
         subgroups: [
