@@ -57,7 +57,7 @@ const linkData = [
         title: "Flöden",
         links: [
             { text: "IDATA - Tjänster",         url: "https://idataab.atlassian.net/wiki/spaces/JOR/pages/339771393/IDATA+-+Tj+nster", class: "button1" },
-            { text: "Publikt-API (koncept)",    url: "file://///id-infra02/Home/jgn/My%20Documents/IDATA/_Publish/Publikt-API.htm", class: "button1" },
+            { text: "Publikt-API (tjänster)",    url: "https://idataab.atlassian.net/wiki/spaces/JOR/pages/203555175/IDATA+Public+API", class: "button1" },
             { text: "Rollhantering",            url: "file://///id-infra02/Home/jgn/My%20Documents/IDATA/_Publish/rollhantering.htm", class: "button1" },
             { text: "Olika referenstyper",      url: "https://idataab.atlassian.net/wiki/spaces/JOR/pages/262897685/Olika+referenser", class: "button2" },
             { text: "eInlaga-eBilaga-Inlagor",  url: "https://idataab.atlassian.net/wiki/spaces/JOR/pages/17795597/eInlaga-eBilaga-Inlagor", class: "button1" },
