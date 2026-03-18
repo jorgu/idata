@@ -72,7 +72,7 @@ const linkData = [
                 links: [
                     { text: "Kort guide - Ställ en fråga (Jira)",                       url: "file://///id-infra02/Home/jgn/My Documents/IDATA/_Publish/Kort guide för att arbeta med Ställ en fråga.htm", class: "button2" },
                     { text: "REK - Kivra (Pages.Jörgen)",                               url: "https://idataab.atlassian.net/wiki/spaces/JOR/pages/255230217/Hantera+REK+-+Kivra", class: "button1" },
-                    { text: "Dokumentstatus (API) & EbeställningMatchC (Pages.Jörgen)", url: "https://idataab.atlassian.net/wiki/spaces/JOR/pages/354189355/Publik+Status+f+r+dokument+via+API", class: "button1" },
+                    { text: "Dokumentstatus (API) & EbeställningMatchC & Plattform & KP", url: "https://idataab.atlassian.net/wiki/spaces/JOR/pages/354189355/Publik+Status+f+r+dokument+via+API", class: "button1" },
                     { text: "Quadient",                                                 url: "https://idataab.atlassian.net/wiki/spaces/JOR/pages/308609041/Quadient", class: "button1" },
                     { text: "OmniGo Timeplan",                                          url: "file://///id-infra02/Home/jgn/My Documents/IDATA/_Publish/Timeline OmniGo migrated (Tidsplan).htm", class: "button1" }
                 ]          
