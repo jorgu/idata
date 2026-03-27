@@ -72,9 +72,7 @@ const linkData = [
                 links: [
                     { text: "Kort guide - Ställ en fråga (Jira)",                       url: "file://///id-infra02/Home/jgn/My Documents/IDATA/_Publish/Kort guide för att arbeta med Ställ en fråga.htm", class: "button2" },
                     { text: "REK - Kivra (Pages.Jörgen)",                               url: "https://idataab.atlassian.net/wiki/spaces/JOR/pages/255230217/Hantera+REK+-+Kivra", class: "button1" },
-                    { text: "Dokumentstatus (API) & EbeställningMatchC & Plattform & KP", url: "https://idataab.atlassian.net/wiki/spaces/JOR/pages/354189355/Publik+Status+f+r+dokument+via+API", class: "button1" },
-                    { text: "Quadient",                                                 url: "https://idataab.atlassian.net/wiki/spaces/JOR/pages/308609041/Quadient", class: "button1" },
-                    { text: "OmniGo Timeplan",                                          url: "file://///id-infra02/Home/jgn/My Documents/IDATA/_Publish/Timeline OmniGo migrated (Tidsplan).htm", class: "button1" }
+                    { text: "Dokumentstatus (API) & EbeställningMatchC & Plattform & KP", url: "https://idataab.atlassian.net/wiki/spaces/JOR/pages/354189355/Publik+Status+f+r+dokument+via+API", class: "button1" }
                 ]          
             }
         ]
@@ -92,10 +90,7 @@ const linkData = [
             {               
                 title: " ",
                 links: [
-                    { text: "FINQR",                        url: "https://idataab.atlassian.net/wiki/spaces/PROD/pages/279315249/FINQR", class: "button1" },
-                    { text: "Quadient [DB]",                url: "https://idataab.atlassian.net/wiki/spaces/PROD/database/381124616?atl_f=PAGETREE&savedViewId=594c0e42-4be7-47e2-b4fa-6099b1fb39d6", class: "button1" },
-                    { text: "Kivra - REK digitalabrev",     url: "https://idataab.atlassian.net/wiki/spaces/PROD/pages/255133382/REK Digitala brev - Kivra", class: "button1" },
-                    { text: "Bisnis Analys Sverige",        url: "https://idataab.atlassian.net/wiki/spaces/PROD/pages/351436854/Bisnis Analys Sverige", class: "button2" }
+                    {text: "Kivra - REK digitalabrev",     url: "https://idataab.atlassian.net/wiki/spaces/PROD/pages/255133382/REK Digitala brev - Kivra", class: "button1" }
                 ]
             },
             {               
