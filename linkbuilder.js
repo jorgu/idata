@@ -110,6 +110,12 @@ const linkData = [
                     { text: "Statuskedja för API-dokument",         url: "https://idataab.atlassian.net/wiki/spaces/PROD/pages/354549912/Statuskedja+f+r+dokument+via+publika+API", class: "button2" },
                     { text: "IDATA Public API (doc)",               url: "https://developer.idata.se/", class: "button2" }
                 ]
+            },
+            {               
+                title: " ",
+                links: [
+                    {text: "IDATAs Röda Tråd",     url: "file://///id-infra02/Home/jgn/My Documents/IDATA/_Publish/IDATAs Röda Tråd.htm", class: "button1" }
+                ]
             }
         ]
     }
