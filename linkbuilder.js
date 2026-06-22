@@ -201,6 +201,7 @@ function renderLinkList(parent, links, isLocal) {
         const btn = document.createElement("button");
         btn.className = "button " + link.class;
         btn.textContent = link.text;
+        if (link.url.includes('SemesterLink')) {btn.title = 'Se link i "Mitt"'}
 
         a.appendChild(btn);
         parent.appendChild(a);
