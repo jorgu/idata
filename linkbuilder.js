@@ -115,7 +115,7 @@ const linkData = [
                 title: " ",
                 links: [
                     {text: "IDATAs Röda Tråd",     url: "file://///id-infra02/Home/jgn/My Documents/IDATA/_Publish/IDATAs Röda Tråd.htm", class: "button1" },
-                    {text: "Semesterplanering",    url: "file:///F:/Internt/IDATA%20Utskriftsservice%20AB/Personalinformation/Semester/Arkiv/_files/Semesterplanering.htm", class: "button1" }
+                    {text: "Semesterplanering",    url: "file://///id-infra02/Home/jgn/My Documents/IDATA/_Publish/SemesterLink.htm", class: "button1" }
                 ]
             }
         ]
@@ -209,7 +209,7 @@ function renderLinkList(parent, links, isLocal) {
 
 
 function getLink() {
-    if (window.location.protocol === 'file:' && window.location.pathname.includes('_Publish')) {
+    if (window.location.protocol === 'file:' && !window.location.pathname.includes('SemesterLink')) {
         return 1==1; 
     } else {
         return 1==0;
