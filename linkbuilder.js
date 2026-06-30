@@ -29,8 +29,7 @@ const linkData = [
     {
         title: "Time line",
         links: [
-            { text: "Beslutade US",                         url: "file://///id-infra02/Home/jgn/My Documents/IDATA/_Publish/Time line - US - Alla beslutade US.htm", class: "button1" },
-            { text: "Krav som ej ännu produktionssatta",    url: "file://///id-infra02/Home/jgn/My Documents/IDATA/_Publish/Time line - US - Krav som ej produktionssatta.htm", class: "button2" }
+            { text: "Beslutade US",                         url: "file://///id-infra02/Home/jgn/My Documents/IDATA/_Publish/Time line - US - Alla beslutade US.htm", class: "button1" }
         ],
     
         subgroups: [
@@ -38,8 +37,9 @@ const linkData = [
                 title: "Sprintplanering",
                 links: [
                     { text: "ToDo - Sprintplanering",               url: "https://idataab.atlassian.net/wiki/spaces/JOR/pages/58949678/Sprintplaneringen", class: "button2" },
-                    { text: "Sprintplaneringsvy (Dashboard)",           url: "http://localhost:8765/Sprintplaneringsvy.htm", class: "button2" },
+                    { text: "Sprintplaneringsvy (Dashboard)",       url: "http://localhost:8765/Sprintplaneringsvy.htm", class: "button2" },
                     { text: "Rank - US i Sprintbacklog",            url: "file://///id-infra02/Home/jgn/My%20Documents/IDATA/_Publish/New%20Sprint%20Prio%20Produktbacklogg.htm", class: "button1" },
+                    { text: "Krav som ej ännu produktionssatta",    url: "file://///id-infra02/Home/jgn/My Documents/IDATA/_Publish/New Sprint - Krav som ej produktionssatta.htm", class: "button2" },
                     { text: "Antal sprintar beslutade US ingått",   url: "file://///id-infra02/Home/jgn/My%20Documents/IDATA/_Publish/Time%20line%20-%20US%20-%20Antal%20sprintar%20ing%C3%A5tt.htm", class: "button1" },
                     { text: "Prio från WS",                         url: "file://///id-infra02/Home/jgn/My Documents/IDATA/_Publish/New Sprint - Prio från ws.htm", class: "button2" },
                     { text: "Min Reminders",                        url: "file://///id-infra02/Home/jgn/My Documents/IDATA/_Publish/Minreminders.htm", class: "button1" }
