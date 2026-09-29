@@ -106,6 +106,7 @@ const linkData = [
                 title: " ",
                 links: [
                     { text: "Konceptuell beskrivning av TRF",       url: "https://idataab.atlassian.net/wiki/spaces/PROD/pages/251396098/Konceptuell+beskrivning+av+TRF", class: "button2" },
+                    { text: "Affärsutvecklingsprocessen",           url: "https://idataab.atlassian.net/wiki/spaces/Gemensamt/pages/16973929/Aff+rsutvecklingsprocessen", class: "button2" },
                     { text: "Kontorspost - ej ursprungs scope",     url: "https://idataab.atlassian.net/issues/?filter=10736", class: "button2" },
                     { text: "Statuskedja för API-dokument",         url: "https://idataab.atlassian.net/wiki/spaces/PROD/pages/354549912/Statuskedja+f+r+dokument+via+publika+API", class: "button2" },
                     { text: "IDATA Public API (doc)",               url: "https://developer.idata.se/", class: "button2" }
