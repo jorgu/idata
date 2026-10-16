@@ -196,7 +196,7 @@ function renderLinkList(parent, links, isLocal) {
         if (isLocal) {
             a.href = url;
         } else {
-            a.href = url.replace('file://///id-infra02/Home/jgn/My Documents/IDATA/_Publish/', 'http://localhost:8765/'); 
+            a.href = url.replace('file://///id-infra02/Home/jgn/My Documents/IDATA/_Publish/', 'file://///id-infra02/Home/jgn/My Documents/IDATA/_Publish/');//'http://localhost:8765/'); 
         }
         
         const btn = document.createElement("button");
