@@ -89,7 +89,7 @@ const linkData = [
     {
         title: "Volymer & Ekonomi",
         links: [
-            { text: "Volymuppföljning",         url: "file://///id-infra02/Home/jgn/My Documents/IDATA/_Publish/PP Ekonomi & Volymer - Volymuppföljning.htm", class: "button1" },
+            { text: "Volymuppföljning",         url: "file://///id-infra02/Home/jgn/My Documents/IDATA/_Publish/PP Ekonomi o Volymer - Volymuppföljning.htm", class: "button1" },
             { text: "Nyförsäljninguppföljning", url: "file://///id-infra02/Home/jgn/My Documents/IDATA/_Publish/PP Ekonomi & Volymer - Nyförsäljninguppföljning.htm", class: "button1" },
             { text: "Produktvolymer",           url: "file://///id-infra02/Home/jgn/My%20Documents/IDATA/_Publish/PP Ekonomi & Volymer - Produktvolymer.htm", class: "button1" }
         ],
@@ -98,9 +98,7 @@ const linkData = [
             {               
                 title: "Ekonomi",
                 links: [
-                    { text: "Kort guide - Ställ en fråga (Jira)",                       url: "file://///id-infra02/Home/jgn/My Documents/IDATA/_Publish/Kort guide för att arbeta med Ställ en fråga.htm", class: "button2" },
-                    { text: "REK - Kivra (Pages.Jörgen)",                               url: "https://idataab.atlassian.net/wiki/spaces/JOR/pages/255230217/Hantera+REK+-+Kivra", class: "button1" },
-                    { text: "Dokumentstatus (API) & EbeställningMatchC & Plattform & KP", url: "https://idataab.atlassian.net/wiki/spaces/JOR/pages/354189355/Publik+Status+f+r+dokument+via+API", class: "button1" }
+                    { text: "Rörelseresultat & marginaler", url: "file://///id-infra02/Home/jgn/My Documents/IDATA/_Publish/Rörelseresultat & marginaler.htm", class: "button2" }
                 ]          
             }
         ]
