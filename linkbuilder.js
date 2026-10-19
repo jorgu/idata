@@ -98,7 +98,7 @@ const linkData = [
             {               
                 title: "Ekonomi",
                 links: [
-                    { text: "Rörelseresultat & marginaler", url: "file://///id-infra02/Home/jgn/My Documents/IDATA/_Publish/Resultat & marginal.htm", class: "button2" }
+                    { text: "Rörelseresultat & marginaler", url: "file://///id-infra02/Home/jgn/My Documents/IDATA/_Publish/PP Ekonomi & Volymer - Resultat & marginal.htm", class: "button2" }
                 ]          
             }
         ]
