@@ -7,7 +7,8 @@ const linkData = [
             { text: "Leveransgrad vs resursdagar", url: "file://///id-infra02/Home/jgn/My Documents/IDATA/_Publish/New Sprint - Leveransgrad vs resursdagar.htm", class: "button1" },
             { text: "Leveransgrad (US - Bug) senaste sprintar", url: "file://///id-infra02/Home/jgn/My Documents/IDATA/_Publish/New Sprint - Leveransgrad (US - Bug) 10 resp 5 sprintar.htm", class: "button1" },
             { text: "Leveransgrad (US) - antal vs h", url: "file://///id-infra02/Home/jgn/My Documents/IDATA/_Publish/New Sprint Leveransgrad antal vs h.htm", class: "button1" },
-            { text: "Senaste sprint", url: "file://///id-infra02/Home/jgn/My Documents/IDATA/_Publish/New Sprint - Leverans.htm", class: "button1" }
+            { text: "Senaste sprint", url: "file://///id-infra02/Home/jgn/My Documents/IDATA/_Publish/New Sprint - Leverans.htm", class: "button1" },
+            { text: "Status Alla beslutade US/BUG", url: "file://///id-infra02/Home/jgn/My Documents/IDATA/_Publish/New Sprint - Status Alla Beslutade Issues.htm", class: "button1" }
         ],
         subgroups: [
             {
@@ -27,14 +28,7 @@ const linkData = [
         ]
     },
     {
-        title: "Time line",
-        links: [
-            { text: "Beslutade US",                         url: "file://///id-infra02/Home/jgn/My Documents/IDATA/_Publish/Time line - US - Alla beslutade US.htm", class: "button1" }
-        ],
-    
-        subgroups: [
-            {
-                title: "Sprintplanering",
+        title: "Sprintplanering",
                 links: [
                     { text: "ToDo - Sprintplanering",               url: "https://idataab.atlassian.net/wiki/spaces/JOR/pages/58949678/Sprintplaneringen", class: "button2" },
                     { text: "Sprintplaneringsvy (Dashboard)",       url: "http://localhost:8765/Sprintplaneringsvy.htm", class: "button2" },
@@ -43,8 +37,9 @@ const linkData = [
                     { text: "Antal sprintar beslutade US ingått",   url: "file://///id-infra02/Home/jgn/My%20Documents/IDATA/_Publish/Time%20line%20-%20US%20-%20Antal%20sprintar%20ing%C3%A5tt.htm", class: "button1" },
                     { text: "Prio från WS",                         url: "file://///id-infra02/Home/jgn/My Documents/IDATA/_Publish/New Sprint - Prio från ws.htm", class: "button2" },
                     { text: "Min Reminders",                        url: "file://///id-infra02/Home/jgn/My Documents/IDATA/_Publish/Minreminders.htm", class: "button1" }
-                ]
-            },
+                ],
+    
+        subgroups: [
             {
                 title: " ",
                 links: [
