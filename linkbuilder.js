@@ -133,7 +133,7 @@ const linkData = [
                 title: " ",
                 links: [
                     {text: "IDATAs Röda Tråd",     url: "file://///id-infra02/Home/jgn/My Documents/IDATA/_Publish/IDATAs Röda Tråd.htm", class: "button1" },
-                    {text: "Semesterplanering",    url: "file://///id-infra02/Home/jgn/My Documents/IDATA/_Publish/SemesterLink.htm", class: "button1" }
+                    {text: "Semesterplanering",    url: "file://///id-infra02/Home/jgn/My Documents/IDATA/_Publish/Semesterplanering.htm", class: "button1" }
                 ]
             }
         ]
