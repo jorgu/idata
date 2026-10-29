@@ -66,8 +66,7 @@ const linkData = [
             { text: "Olika referenstyper",      url: "https://idataab.atlassian.net/wiki/spaces/JOR/pages/262897685/Olika+referenser", class: "button2" },
             { text: "eInlaga-eBilaga-Inlagor",  url: "https://idataab.atlassian.net/wiki/spaces/JOR/pages/17795597/eInlaga-eBilaga-Inlagor", class: "button1" },
             { text: "Utökad lagring - Arkiv",   url: "https://idataab.atlassian.net/wiki/spaces/JOR/pages/17795708/Ut+kadlagring", class: "button2" },
-            { text: "Sekretess-Engångsutskick", url: "https://idataab.atlassian.net/wiki/spaces/JOR/pages/220823555/Sekretessutskick+vs+Eng+ngsutskick", class: "button1" },
-            { text: "REK - internhantering",    url: "https://idataab.atlassian.net/wiki/spaces/JOR/pages/346128387/REK+-+manuell+rutin", class: "button1" }
+            { text: "Sekretess-Engångsutskick", url: "https://idataab.atlassian.net/wiki/spaces/JOR/pages/220823555/Sekretessutskick+vs+Eng+ngsutskick", class: "button1" }
         ],
         
         subgroups: [
@@ -75,7 +74,7 @@ const linkData = [
                 title: " ",
                 links: [
                     { text: "Kort guide - Ställ en fråga (Jira)",                       url: "file://///id-infra02/Home/jgn/My Documents/IDATA/_Publish/Kort guide för att arbeta med Ställ en fråga.htm", class: "button2" },
-                    { text: "REK - Kivra (Pages.Jörgen)",                               url: "https://idataab.atlassian.net/wiki/spaces/JOR/pages/255230217/Hantera+REK+-+Kivra", class: "button1" },
+                    { text: "REK - Manuell/Kivra (Pages.Jörgen)",                       url: "https://idataab.atlassian.net/wiki/spaces/JOR/pages/edit-v2/350224391", class: "button1" },
                     { text: "Dokumentstatus (API) & EbeställningMatchC & Plattform & KP", url: "https://idataab.atlassian.net/wiki/spaces/JOR/pages/354189355/Publik+Status+f+r+dokument+via+API", class: "button1" }
                 ]          
             }
@@ -111,7 +110,7 @@ const linkData = [
             {               
                 title: " ",
                 links: [
-                    {text: "Kivra - REK digitalabrev",     url: "https://idataab.atlassian.net/wiki/spaces/PROD/pages/255133382/REK Digitala brev - Kivra", class: "button1" }
+                    {text: "Kivra - REK digitalabrev (Pages.Produkter)",     url: "https://idataab.atlassian.net/wiki/spaces/PROD/pages/255133382/REK Digitala brev - Kivra", class: "button1" }
                 ]
             },
             {               
